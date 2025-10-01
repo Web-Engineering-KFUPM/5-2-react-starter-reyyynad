@@ -1,4 +1,5 @@
 import './App.css'
+import StudentCard from './components/StudentCard';
 
 function App() {
   return (
@@ -17,4 +18,16 @@ function App() {
   )
 }
 
-export default App
+
+function App() {
+  return (
+    <div>
+      <h1>Student Info</h1>
+      <StudentCard />
+    </div>
+  );
+}
+
+export default App;
+
+  
