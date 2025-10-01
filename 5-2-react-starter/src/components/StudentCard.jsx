@@ -1,12 +1,13 @@
-function StudentCard() {
-    return (
-      <div>
-        <h3>Name: Renad Elsafi</h3>
-        <p>D: 202276760</p>
-        <p>Department: ICS</p>
-      </div>
-    );
-  }
+import React from "react";
+function StudentCard(props) {
+  return (
+    <div>
+      <h3>Name: {props.name}</h3>
+      <p>Student ID: {props.id}</p>
+      <p>Department: {props.dept}</p>
+    </div>
+  );
+}
   
-  export default StudentCard;
+export default StudentCard;
   
