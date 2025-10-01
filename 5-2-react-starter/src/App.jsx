@@ -11,7 +11,15 @@ function App() {
 
       <main className="dashboard-main">
         <div className="cards-container">
-          {/* TODO: Import and render StudentCard components here */}
+          {/* TODO: Import and render StudentCard components here */
+          function App() {
+  return (
+    <div>
+      <h1>Student Info</h1>
+      <StudentCard />
+    </div>
+  );
+}}
         </div>
       </main>
     </div>
@@ -19,14 +27,7 @@ function App() {
 }
 
 
-function App() {
-  return (
-    <div>
-      <h1>Student Info</h1>
-      <StudentCard />
-    </div>
-  );
-}
+
 
 export default App;
 
